@@ -5,7 +5,8 @@ def PARSE(ab):
         b=input()
         print('insert operator')
         c=input()
-        return ("if {} {} {}".format(a,c,b))
+        return ("if {} {} {}:".format(a,c,b))
 
 a=input()
 print(PARSE(a))
+
